@@ -62,6 +62,11 @@ Effect of the number of microphones (SI-SDR, dB):
 Delay-and-sum barely helps with a 15 cm array: its beam is too wide at low
 frequencies, while adaptive beamformers place a null on the interferer.
 
+## Documentation
+
+- [docs/theory.md](docs/theory.md): signal model, MVDR derivation, why delay-and-sum fails here, spatial aliasing, SI-SDR.
+- [docs/limits_and_next_steps.md](docs/limits_and_next_steps.md): honest caveats, roadmap, and answers to likely technical questions.
+
 ## Limits and next steps
 
 - Anechoic simulation (no reverberation) and known directions of arrival.
